@@ -1,0 +1,268 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+body{
+    font-family: 'Oswald', sans-serif;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+h1{
+    margin-left: 30px;
+    color: #d61240;
+}
+/*Navigation bar*/
+
+  /*logo*/
+  .Season{
+      font-size: 35px;
+      color: #d61240;
+  }  
+ #Wear{
+   font-size: 20px;
+ }
+
+nav{
+    position: fixed;
+}
+
+#Nav-bar{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    /*border: 2px solid red;*/
+    position:fixed;
+    width: 100%;
+    opacity: 0.8;
+}
+.navbar{
+    color: white;
+      display: inline-block;
+      padding: 10px;
+      margin: 20px;
+      
+}
+#Logo-1{
+    margin: 10px;
+    position: relative;
+    
+}
+#Nav-bar ul li a{
+    font-weight: bolder;
+    font-size: 20px;
+     color: white;
+    text-decoration: none;
+}
+    
+#Nav-bar ul li a:hover{
+    /*background-color: #fff;*/ 
+    color:#d61240;
+}
+/*Container*/
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.container::before{
+    content: '';
+    background: url('/images/marcus-loke-xXJ6utyoSw0-unsplash.jpg') 
+        no-repeat center center/cover;
+    position: absolute;
+    opacity: 0.9;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+}
+
+.container .box{
+    color:white;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.box .best{
+    color:#d61240;
+}
+
+
+/*Contents*/
+.contents h1{
+     padding: 20px;
+    font-size: 35px;
+    color: #d61240;
+}
+.contents{
+    
+    width: 100%;
+   /* border: 2px solid red;*/
+}
+.products{
+    display: flex;
+    margin: 110px;
+}
+.button {
+    margin: 10%;
+    text-align: center;
+    width: 200px;
+}
+.button-1{
+    font-size: 20px;
+    color: white;
+    width: 123px;
+    border-radius: 30px;
+    background-color: #d61240;
+    box-shadow: 0 4px 15px 0 #af2323;
+
+}
+.button-1:hover{
+   width:150px;
+   height: 30px;
+   cursor: pointer;
+   
+   
+}
+
+
+.item{
+    display: inline-block;
+    margin: 40px;
+    justify-content: center;
+    border-radius: 2px;;
+    width: 33.33%;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, .2);
+}
+.item img{
+    width: 120px;
+    margin: 20px;
+}
+
+.pricing{
+    display: flex;
+    margin-left: 2px;
+}
+.pricing span{
+    margin-left: 50px;
+}
+/*Form pop up*/
+
+  
+  /* The popup form - hidden by default */
+  .form-open {
+    display: none;
+    position: fixed;
+    bottom: 0px;
+    right: 498px;
+    /*border: 3px solid #f1f1f1;*/
+    z-index: 9;
+    top: 120px;
+  }
+  
+  /* Add styles to the form container */
+  .form-container {
+      color: white;
+    max-width: 300px;
+    padding: 10px;
+    background-color: rgba(15, 1, 1, 0.849);
+    border: 2px solid rgba(15, 1, 1, 0.849);
+  }
+  
+  /* Full-width input fields */
+  .form-container input[type=text], .form-container input[type=tel] {
+    width: 86%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  /* When the inputs get focus, do something */
+  .form-container input[type=text]:focus, .form-container input[type=tel]:focus, .form-container input[type=location]{
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Set a style for the submit/login button */
+  .form-container .btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+  }
+  
+  /* Add a red background color to the cancel button */
+  .form-container .cancel {
+    background-color: red;
+  }
+  
+  /* Add some hover effects to buttons */
+  .form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+  }
+/*About*/
+.Aboutbox{
+      display: flex;
+}
+.abox{
+    /*border: 2px solid green;*/
+    width: 50%;
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+}
+#box-1{
+    padding: 70px;
+}
+#box-2{
+    
+    height: 400px;
+}
+/*Contact*/
+.Contactbox{
+    display: flex;
+    background-color: #020000e8;
+}
+.cbox{
+  /*border: 2px solid green;*/
+  width: 50%;
+  margin-top: 10px;
+  margin-left: 10px;
+  color: white;
+  
+  
+}
+#Con-1{
+  padding: 42px;
+}
+#Con-1 img{
+    width:20px;
+}
+#Con-2{
+    font-size: 13px;
+  font-family: 'Roboto', sans-serif;
+  /*height: 400px;*/
+}
+.icon{
+    display: inline-block;
+    margin:12px;
+}
+.number{
+    margin-left: 5px;
+  /*  color:#d61240;;*/
+
+}
+.location{
+    /*color: #d61240;;*/
+}

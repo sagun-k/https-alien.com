@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final project</title>
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        
+        <nav id="Nav-bar">
+            
+              <ul>
+                 <li class="navbar" id="Logo-1"><span class="Season">Season</span><span id="Wear">Wear</span><span class="Season"">Nepal</span></li>
+                  <li class="navbar" id="Home-1"><a href="#Home-2">Home</a></li>
+                  <li class="navbar" id="About-1"><a href="#About-2">About</a></li>
+                  <li class="navbar" id="Products-1"><a href="#Products-2">Our Products</a></li>
+                  <li class="navbar" id="Contact-1"><a href="#Contact-2">Contact Us</a></li>
+              </ul>
+        </nav>
+    </div>
+    <div class="container" id="Home-2">
+        
+        <div class="box">Get the <span  class="best">best</span> <span class="best">Clothes</span> from the <span class="best">best</span>.</div>
+        
+    </div>
+    <div class="contents" id="Products-2">
+       <h1>Latest Products</h1>
+       <div class="products">
+        <div class="item" id="item1">
+            <img src="/images/milada-vigerova-p8Drpg_duLw-unsplash.jpg" alt="reload">
+            <div class="pricing">
+            <h3>Sweater</h3>
+            <span>Rs 800</span>
+            </div>
+            <p>Woolan hand made warm sweater.</p>
+           <div class="button" onclick="openForm()">
+            <button class="button-1" >Buy Now</button>
+           </div> 
+
+            </div>
+        <div class="item" id="item2"><img src="/images/engin-akyurt-5raPrOhbKQo-unsplash.jpg" alt="reload">
+            <div class="pricing">
+            <h3>Pant</h3>
+            <span>Rs 1000</span>
+            </div> <p>Comfotbale Pant.</p>
+            <div class="button" onclick="openForm()" >
+                <button class="button-1" >Buy Now</button>
+               </div> </div>
+        <div class="item" id="item3"><img src="/images/engin-akyurt-TDOClniEwmI-unsplash.jpg" alt="reload">
+            <div class="pricing">
+            <h3>Jeans Dress</h3>
+            <span>Rs 1500</span>
+            </div>
+            <div class="button" onclick="openForm()">
+                <button class="button-1">Buy Now</button>
+               </div> </div>
+            
+        </div>
+    </div>
+    <div class="form-open" id="myForm">
+        <form action="#" class="form-container">
+            <h1>Order</h1>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <label for="contact"><b>Contact no:</b></label>
+    <input type="tel" placeholder="Enter your contact number" name="contact" required>
+
+    <label for="location"><b>Location</b></label>
+    <input type="text" placeholder="Enter your location" name="location" required>
+
+    <button type="submit" class="btn">Order Now</button>
+    <button type="submit" class="btn cancel" onclick="closeForm()">Close</button>
+        </form>
+
+    </div>
+    <div class="About" id="About-2">
+        <h1>About SeasonwearNepal</h1>
+        <div class="Aboutbox">
+        <div class="abox" id="box-1">
+        <p>SeasonwearNepal is the online ecommerce clothing webportal. We are new in this industry trying to level up whole industry by providing services in disciplinatory way. On July 20 2020, we started this webportal with the aim of providing the products our buyers wish for and deliver the products to thier doors as soon as possible.</p>
+            
+        </div>
+        <div class="abox" id="box-2">
+            <img src="/images/kemal-alkan-_BDBEP0ePQc-unsplash.jpg" alt="">
+        </div>
+        </div>
+    </div>
+    <div class="Contact" id="Contact-2">
+        <h1>Contact Us</h1>
+        <div class="Contactbox">
+        <div class="cbox" id="Con-1">
+           <div class="icon" id="icon1"><a href="#"><img src="/images/icons/icons8-facebook-48.png" alt=""></a></div> 
+          <div class="icon" id="icon2"><a href="#"><img src="/images/icons/icons8-instagram-48.png" alt=""></a></div>  
+            <div class="icon" id="icon3"><a href="#"><img src="/images/icons/icons8-twitter-48.png" alt=""></a></div>
+            <div class="number ">
+                Tel:981321312,989898299
+
+            </div>
+            <div class=" number location">
+                <img src="/images/icons/icons8-location-64.png" alt="">
+                Madhyapur Thimi-8, Bhaktapur
+            </div>
+            <div class="number gmail">
+               <img src="/images/icons/icons8-gmail-48.png" alt=""> seasonwear@gmail.com
+            </div>
+        
+            
+        </div>
+        <div class="cbox" id="Con-2">
+            <h3>Our services</h3>
+            <div class="delivery">
+            <img src="/images/icons/icons8-deliver-food-48.png" alt="">
+            Delivery all over Nepal
+            </div>
+            <div>Return or exchange for 3 days.</div>
+            <div>Online Payment</div>
+        </div>
+        </div>
+    </div>
+    <script src="/js/index.js"></script>
+</body>
+
+</html>
